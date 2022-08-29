@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-ecmascript",
+  "version": "1.0.0",
+  "description": "Vamos a practicar con proyectos y ejercicios las distintas versiones de js y EcmaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "npm",
+    "node"
+  ],
+  "author": "David Mesa <mezad55@gmail.com>",
+  "license": "MIT"
+}

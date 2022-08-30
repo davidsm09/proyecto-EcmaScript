@@ -1,0 +1,22 @@
+//forma convencional 
+
+function newUser(name, age, country) {
+    var name = name || "Àlexa";
+    var age = age || 24;
+    var country = country || "COL";
+    console.log(name, age, country);
+}
+
+newUser();
+newUser("Oscar", 34, "MX");
+
+//actualizacion es6 
+//podemos declarar los valores directamente en los parametros
+
+
+function newAdmin(name = "Alexa", age = 24, country = "COL") {
+    console.log(name, age, country);
+}
+//nos permite redeclarar valores
+newAdmin()
+newAdmin("Oscar", 34, "MX");

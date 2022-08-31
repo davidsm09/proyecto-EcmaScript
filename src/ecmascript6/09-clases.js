@@ -9,7 +9,7 @@ greeting() {
     return "hello";
 }
 };
-
+//Instancias de la clase user
 const gndx = new user();
 console.log(gndx.greeting());
 const bebeloper = new user();
@@ -28,7 +28,7 @@ class user {
 
 const david = new user();
 
-// this
+// this, Elemeto padre que lo contiene
 
 class user {
     constructor(name) {

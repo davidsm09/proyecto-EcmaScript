@@ -4,7 +4,7 @@ class User {};
 //const newUser = new User ();
 
 class user {
- // metodos
+ // declaracion de metodos
 greeting() {
     return "hello";
 }
@@ -15,7 +15,7 @@ console.log(gndx.greeting());
 const bebeloper = new user();
 console.log(bebeloper.greeting());
 
-// constructor
+// constructor inicializamos elementos de la clase
 
 class user { 
     constructor() {
